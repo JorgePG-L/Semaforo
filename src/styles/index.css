@@ -1,12 +1,53 @@
 
-/* 
 
-    You can write your own styles here...
+.semaforo{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+    }
+.back{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
     
+    align-items: center;
+}
+.red{
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: ;
+    width:30px;
+    height:30px;
+    background-color: red;
+    border-radius: 50%;
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.yellow{
+    padding: 20px;
+    margin-top: 30px;
+    width:30px;
+    height:30px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.green{
+    padding: 20px;
+    margin-top: 30px;
+    width:30px;
+    height:30px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.selected{
+    
+box-shadow: 1px 7px 32px 10px rgba(227,206,16,0.81);
+}
